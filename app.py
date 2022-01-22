@@ -5,6 +5,8 @@ import pandas as pd
 import bokeh.models
 import streamlit_bokeh_events
 
+st.text("THat was stressful")
+
 df = pd.read_csv('raw_artists.csv')
 
 map_df = df[['artist_latitude','artist_longitude']]
