@@ -2,10 +2,10 @@ import streamlit as st
 
 import numpy as np
 import pandas as pd
-import bokeh.models
+import bokeh
 import streamlit_bokeh_events
 
-st.text("THat was stressful")
+st.text("That was stressful, really stressful")
 
 df = pd.read_csv('raw_artists.csv')
 
