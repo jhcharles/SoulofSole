@@ -41,3 +41,4 @@ streamlit-keplergl
 streamlit-bokeh-events
 leafmap
 geemap
+haversine
