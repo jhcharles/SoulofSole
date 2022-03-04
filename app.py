@@ -99,7 +99,7 @@ with col1:
     st.markdown(text1)
     text2 = "**Distance from input (km):** " + str(int(artist_dict['localhaversine']))
     st.markdown(text2)
-    text3 = "**Website:** " + artist_dict['artist_website']
+    text3 = "**Website:** " + str(artist_dict['artist_website'])
     st.markdown(text3)
     st.markdown(artist_dict['artist_bio'])
 
